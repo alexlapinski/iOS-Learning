@@ -15,6 +15,9 @@
 		703D183015FA1DEA00DD9338 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D182F15FA1DEA00DD9338 /* AppDelegate.m */; };
 		703D183315FA1DEA00DD9338 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D183215FA1DEA00DD9338 /* ViewController.m */; };
 		703D183615FA1DEA00DD9338 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 703D183415FA1DEA00DD9338 /* ViewController.xib */; };
+		703D183E15FA1E4F00DD9338 /* ContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D183D15FA1E4F00DD9338 /* ContainerView.m */; };
+		703D184115FA1F7A00DD9338 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D184015FA1F7A00DD9338 /* Item.m */; };
+		703D184415FA29E400DD9338 /* ContainerGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D184315FA29E400DD9338 /* ContainerGroupView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,12 @@
 		703D183115FA1DEA00DD9338 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		703D183215FA1DEA00DD9338 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		703D183515FA1DEA00DD9338 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		703D183C15FA1E4E00DD9338 /* ContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerView.h; sourceTree = "<group>"; };
+		703D183D15FA1E4F00DD9338 /* ContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerView.m; sourceTree = "<group>"; };
+		703D183F15FA1F7A00DD9338 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		703D184015FA1F7A00DD9338 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		703D184215FA29E400DD9338 /* ContainerGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerGroupView.h; sourceTree = "<group>"; };
+		703D184315FA29E400DD9338 /* ContainerGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerGroupView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,12 @@
 				703D183215FA1DEA00DD9338 /* ViewController.m */,
 				703D183415FA1DEA00DD9338 /* ViewController.xib */,
 				703D182615FA1DEA00DD9338 /* Supporting Files */,
+				703D183C15FA1E4E00DD9338 /* ContainerView.h */,
+				703D183D15FA1E4F00DD9338 /* ContainerView.m */,
+				703D183F15FA1F7A00DD9338 /* Item.h */,
+				703D184015FA1F7A00DD9338 /* Item.m */,
+				703D184215FA29E400DD9338 /* ContainerGroupView.h */,
+				703D184315FA29E400DD9338 /* ContainerGroupView.m */,
 			);
 			path = iOSLearning;
 			sourceTree = "<group>";
@@ -164,6 +179,9 @@
 				703D182C15FA1DEA00DD9338 /* main.m in Sources */,
 				703D183015FA1DEA00DD9338 /* AppDelegate.m in Sources */,
 				703D183315FA1DEA00DD9338 /* ViewController.m in Sources */,
+				703D183E15FA1E4F00DD9338 /* ContainerView.m in Sources */,
+				703D184115FA1F7A00DD9338 /* Item.m in Sources */,
+				703D184415FA29E400DD9338 /* ContainerGroupView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
